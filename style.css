@@ -3,6 +3,8 @@ body{
     background-color: #aaff00;
 }
 
+/* Home page */
+
 /* Title */
 
 #home-title{
@@ -27,3 +29,38 @@ body{
     color: rgb(153, 164, 173);
 }
 
+/* Mutton Briyani page, Chapati Bread Recipe page, Dahl with Spinach Recipe page */
+
+/* Title */
+#page1title,
+#page2title,
+#page3title{
+    font-family: Poppins;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Image */
+#img1,
+#img2,
+#img3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+
+/* Description */
+#des{
+    font-family: Rubik;
+    font-size: 20px;
+}
+
+#des2,
+div{
+    font-family: Montserrat;
+}
+
+div{
+    
+}
