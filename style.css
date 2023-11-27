@@ -1,0 +1,29 @@
+/* Body color */
+body{
+    background-color: #aaff00;
+}
+
+/* Title */
+
+#home-title{
+    font-family: Poppins;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* List */
+
+#list1{
+    color: white;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 20px;
+    display: table;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+#listchild1 a{
+    color: rgb(153, 164, 173);
+}
+
