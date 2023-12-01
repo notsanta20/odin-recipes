@@ -1,6 +1,6 @@
 /* Body color */
 body{
-    background-color: #aaff00;
+    background-color: hsl(0, 0%, 25%);
 }
 
 /* Home page */
@@ -8,26 +8,46 @@ body{
 /* Title */
 
 #home-title{
-    font-family: Poppins;
+    color: #EB3510;
+    font-family: Bitter;
     text-align: center;
     font-size: 50px;
 }
 
 /* List */
 
-#list1{
-    color: white;
-    font-family: Rubik;
-    font-weight: 700;
+.menu1{
+    color: #FAFAFA;
+    font-family: Playfair-Display;
     font-size: 20px;
+    text-align: center;
+    margin-top: 200px;
+ }
+
+.item1,
+.item2,
+.item3{
+    background-color: hsl(0, 0%, 20%);
+    
     display: table;
-    margin: 0 auto;
-    line-height: 50px;
+    padding: 20px;
 }
 
-#listchild1 a{
-    color: rgb(153, 164, 173);
+.item1{
+    margin: 0 auto;
+    margin-top: 40px;
 }
+
+.item2{
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.item3{
+    margin: 0 auto;
+    margin-top: 80px;   
+}
+
 
 /* Mutton Briyani page, Chapati Bread Recipe page, Dahl with Spinach Recipe page */
 
@@ -35,6 +55,7 @@ body{
 #page1title,
 #page2title,
 #page3title{
+    color: #FAFAFA;
     font-family: Poppins;
     text-align: center;
     font-size: 50px;
@@ -52,12 +73,14 @@ body{
 
 /* Description */
 #des{
+    color: #EB3510;
     font-family: Rubik;
     font-size: 20px;
 }
 
 #des2,
 div{
+    color: #FAFAFA;
     font-family: Montserrat;
 }
 
